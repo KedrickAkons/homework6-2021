@@ -92,7 +92,6 @@ header{
    /*Your code here.*/
   /* width: 25px; */
   animation: logo_grow 15s;
-  transition: ease-in;
 }
 
 /*Keyframes for animation*/
@@ -142,8 +141,8 @@ header{
 /*Add media query to handle reduced-motion*/
 @media screen and (prefers-reduced-motion){
 /*Your code here again.*/ 
-  header{
-    transition: none;
+  #logo{
+    animation: none;
   }
 }
 
